@@ -10,18 +10,25 @@ ___
 `git clone https://github.com/hy-son/Images-classification-extraction`
 - Create a new conda environement (Python 3.6)
 `conda env create -f environment.yml`
+
+Some import may fail, to fix them please run:
+- `pip install --force-reinstall --no-cache-dir numpy`
+- `pip install --force-reinstall --no-cache-dir --user torchvision`
   
 ### Configuration:
 All configuration data are stored in `data.py`.
+**model_name and trainned_dir must be list of the same size**
 
 ### Data
 The ELO images data must be stored in the `Data` folder, split in 3 folders `train`, `test`, `val` and all images must be in a folder with of there class.
 Ex: `Data\train\0\10-44-52_01.jpg`
 The required images size is 224 by 224.
+You can download a small data sample here: https://drive.google.com/file/d/1yoarg6nhrNrUypNiRZ8vsZ9uN2Ji6gsQ/view?usp=sharing
 
 ### Use
 You can test the accuracy of the neural network by running `main.py`.
 The jupyter notebook `Classification extraction execution time.ipynb` will allow you to create the confusion matrix.
+**To train** see a 5CNN.py
 
 ### Training
 The 5 networks can be trained as show in `5CNN.codeexaple.py`
