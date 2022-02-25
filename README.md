@@ -17,7 +17,7 @@ Some import may fail, to fix them please run:
   
 ### Configuration:
 All configuration data are stored in `data.py`.
-**model_name and trainned_dir must be list of the same size**
+**model_name and trainned_dir must be list of the same size** as for the n model_name the n trainned_dir file will be loaded.
 
 ### Data
 The ELO images data must be stored in the `Data` folder, split in 3 folders `train`, `test`, `val` and all images must be in a folder with of there class.
@@ -28,7 +28,7 @@ You can download a small data sample here: https://drive.google.com/file/d/1yoar
 ### Use
 You can test the accuracy of the neural network by running `main.py`.
 The jupyter notebook `Classification extraction execution time.ipynb` will allow you to create the confusion matrix.
-**To train** see a 5CNN.py
+**To train** launch 5CNN.py, (the trainning parameters are stored in his dataclass Project_data).
 
 ### Training
 The 5 networks can be trained as show in `5CNN.codeexaple.py`
