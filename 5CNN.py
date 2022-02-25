@@ -1,4 +1,3 @@
-exit()
 __author__ = "Léopold Le Roux"
 """
 Transfert learning script.
@@ -35,7 +34,7 @@ class Project_data:
     Code inspired by: https://gist.github.com/FrancescoSaverioZuppichini/9711a48c4563980b438f40276d6db390
     """
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__)))
-    data_dir = os.path.join(base_dir, 'dataset')
+    data_dir = os.path.join(base_dir, 'data')
     checkpoint_dir = os.path.join(base_dir, 'Checkpoint')
     num_epochs = 100
     num_classes = 3
