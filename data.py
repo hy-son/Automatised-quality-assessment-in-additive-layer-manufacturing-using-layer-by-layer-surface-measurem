@@ -17,16 +17,16 @@ class Project_data:
     data_dir = r"Data"
     checkpoint_dir = os.path.join(base_dir, 'Checkpoint')
     trainned_dir =  [#os.path.join(checkpoint_dir, "SqueezeNet_pretrain_epoch-46.pt"),
-                    r"NeuralNet\ResNet_pretrain_epoch-10.pt",
+                    #r"NeuralNet\ResNet_pretrain_epoch-10.pt",
                     r"NeuralNet\ResNet_pretrain_epoch-40.pt",
-                    r"NeuralNet\AlexNet_pretrain_epoch-40.pt",
+                    r"NeuralNet\SqueezeNet_pretrain_epoch-38.pt",
                     r"NeuralNet\DenseNet_pretrain_epoch-40.pt",
                     ]
     num_epochs = 100
     num_classes = 3
     batch_size = 1
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    model_name = ["resnet", "alexnet", "vgg", "squeezenet", "densenet" ] # ["resnet", "resnet","alexnet", "densenet" ] #["resnet", "alexnet", "vgg", "squeezenet", "densenet" ] # inception remove, crash, "inception"]
+    model_name = ["resnet", "squeezenet", "densenet" ]  #["resnet", "alexnet", "vgg", "squeezenet", "densenet" ] # inception remove, crash, "inception"]
     feature_extract= False
     lr=0.001
     momentum=0.9
