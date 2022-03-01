@@ -34,7 +34,7 @@ class Project_data:
     Code inspired by: https://gist.github.com/FrancescoSaverioZuppichini/9711a48c4563980b438f40276d6db390
     """
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__)))
-    data_dir = os.path.join(base_dir, 'data')
+    data_dir = os.path.join(base_dir, 'Data')
     checkpoint_dir = os.path.join(base_dir, 'Checkpoint')
     num_epochs = 100
     num_classes = 3
