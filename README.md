@@ -1,6 +1,6 @@
 # Automatised quality assessment in additive layer manufacturing using layer-by-layer surface measurements and deep learning
 ___
-##[CIRP ICME 2020 paper](Automatised quality assessment in additive layer manufacturing using layer-by-layer surface measurements and deep learning)
+[CIRP ICME 2020 paper: Automatised quality assessment in additive layer manufacturing using layer-by-layer surface measurements and deep learning](https://doi.org/10.1016/j.procir.2021.03.050)
 Additive manufacturing (AM) has gained high research interests in the past but comes with some drawbacks, such as the difficulty to do in-situ quality monitoring. In this paper, deep learning is used on electron-optical images taken during the Electron Beam Melting (EBM) process to classify the quality of AM layers to achieve automatized quality assessment. A comparative study of several mainstream Convolutional Neural Networks to classify the images has been conducted. The classification accuracy is up to 95 %, which demonstrates the great potential to support in-process layer quality control of EBM.And the error analysis has shown that some human misclassification were correctly classified by the Convolutional Neural Networks.
 
 ## Getting started
